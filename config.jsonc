@@ -1,0 +1,39 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  /*"margin-bottom": 5,*/
+  /*"width": 1000,*/
+  "height": 37,
+
+    "modules-left": [
+      "mango/workspaces"
+  ], 
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "mango/layout",
+    "network"
+  ],
+
+"mango/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate"
+},
+
+  "mango/layout": {
+    "format": "{}"
+  },
+
+  "clock": {
+    "format": "{:%H:%M}"
+  },
+
+  "network": {
+    "format-wifi": "  󰖩 ",
+    "format-ethernet": "󰈀",
+    "format-disconnected": "offline"
+  }
+}
+
