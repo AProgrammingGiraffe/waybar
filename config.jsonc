@@ -14,8 +14,14 @@
 
   "modules-right": [
     "mango/layout",
-    "network"
+    "network",
+    "custom/logo"
   ],
+
+  "custom/logo": {
+    "format": "󰣇 ",
+    "on-click": "alacritty -e sh -c 'fastfetch; exec bash'"
+  },
 
 "mango/workspaces": {
     "format": "{icon}",
